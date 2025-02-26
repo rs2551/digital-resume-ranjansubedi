@@ -1,83 +1,81 @@
-body {
-    font-family: 'Arial', sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
     color: #333;
-    line-height: 1.6;
-}
-
-.container {
-    width: 60%;
-    margin: 40px auto;
-    background: white;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-header {
-    background: #0056b3;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 8px 8px 0 0;
-}
-
-h1, h2, h3 {
-    margin: 0;
-    color: #333;
-}
-
-h1 {
-    font-size: 28px;
-}
-
-h2 {
-    font-size: 22px;
-    margin-top: 20px;
-    border-bottom: 2px solid #0056b3;
-    padding-bottom: 5px;
-}
-
-h3 {
-    font-size: 18px;
-    color: #0056b3;
-    margin-top: 15px;
-}
-
-p, ul {
-    margin: 10px 0;
-}
-
-ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-.contact-info {
-    text-align: center;
-    margin: 20px 0;
     font-size: 16px;
 }
 
-.contact-info a {
-    color: #0056b3;
-    text-decoration: none;
-    font-weight: bold;
+.resume-container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.contact-info a:hover {
-    text-decoration: underline;
+header {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-strong {
-    color: #0056b3;
+header h1 {
+    font-size: 32px;
+    color: #333;
 }
 
-@media (max-width: 768px) {
-    .container {
-        width: 90%;
-    }
+header p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 5px;
 }
 
+.contact p {
+    font-size: 14px;
+    color: #777;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+section hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+.job, .school, .project {
+    margin-bottom: 20px;
+}
+
+.job h3, .school h3, .project h3 {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.job p, .school p, .project p {
+    font-size: 16px;
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 8px;
+}
